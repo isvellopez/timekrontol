@@ -9,6 +9,12 @@
     <string name="username_summary">Please enter your username</string>
     <string name="password">Password</string>
     <string name="password_summary">Please enter your password</string>
-    <string name="Configuration">Configuration</string>
+    <string name="preferences">Preferences</string>
+    <string name="btnHttpPost">Http Post</string>
+    <string name="command">Command</string>
+    <string name="command_summary">Please enter your Command</string>
+    <string name="url">URL</string>
+    <string name="url_summary">Please enter the URL</string>
+    <string name="multiline">Please Configure Preferences before pressing the button</string>
 
 </resources>
