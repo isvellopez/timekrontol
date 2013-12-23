@@ -5,16 +5,26 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="Test">test</string>
-    <string name="username">Username</string>
-    <string name="username_summary">Please enter your username</string>
-    <string name="password">Password</string>
-    <string name="password_summary">Please enter your password</string>
-    <string name="preferences">Preferences</string>
-    <string name="btnHttpPost">Http Post</string>
-    <string name="command">Command</string>
-    <string name="command_summary">Please enter your Command</string>
+    <string name="command">command</string>
+    <string name="command_summary">Please enter the command</string>
+    <string name="product">product</string>
+    <string name="product_summary">Please enter the product</string>
+    <string name="tag">tag</string>
     <string name="url">URL</string>
     <string name="url_summary">Please enter the URL</string>
-    <string name="multiline">Please Configure Preferences before pressing the button</string>
+    <string name="post">Post Sent</string>
+    <string name="txtresponse">Response</string>
+    <string name="tag_summary">Enter the TAG</string>
+    <string name="sim">Sim</string>
+    <string name="sim_summary">Please enter your summary</string>
+    <string name="preferences">Preferences</string>
+    <string name="wifi">Wifi</string>
+    <string name="wifi_summary">Enter or Select a Wifi Network</string>
+    <string name="wifinetworks">Wifi Networks</string>
+    <string name="wifinetworks_summary">Saved Wifi Network</string>
+    <string name="wifiname">Wifi Name</string>
+    <string name="wifiname_summary">Configured Wifi Name</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
 
 </resources>

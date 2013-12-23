@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <EditTextPreference
-        android:key="username"
-        android:summary="@string/username_summary"
-        android:title="@string/username" />
-    <EditTextPreference
-        android:key="password"
-        android:summary="@string/password_summary"
-        android:title="@string/password"
-        android:password="true" />
-    <EditTextPreference android:title="@string/command" android:summary="@string/command_summary" android:key="command"/>
-    <EditTextPreference android:title="@string/url" android:summary="@string/url_summary" android:key="url"/>
+    <PreferenceScreen
+        android:enabled="true"
+        android:key="Wifi"
+        android:summary="@string/wifi_summary"
+        android:title="@string/wifi" >
+        <EditTextPreference
+            android:key="WifiName"
+            android:persistent="true"
+            android:summary="@string/wifiname_summary"
+            android:title="@string/wifiname" />
+
+        <ListPreference
+            android:key="ChooseWifiNetwork"
+            android:persistent="true"
+            android:summary="@string/wifinetworks_summary"
+            android:title="@string/wifinetworks" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:enabled="true"
+        android:key="Test"
+        android:summary="@string/Test"
+        android:title="@string/Test" >
+        <EditTextPreference
+            android:key="command"
+            android:summary="@string/command_summary"
+            android:title="@string/command" />
+        <EditTextPreference
+            android:key="product"
+            android:summary="@string/product_summary"
+            android:title="@string/product" />
+        <EditTextPreference
+            android:key="tag"
+            android:summary="@string/tag_summary"
+            android:title="@string/tag" />
+        <EditTextPreference
+            android:key="url"
+            android:summary="@string/url_summary"
+            android:title="@string/url" />
+        <EditTextPreference
+            android:key="sim"
+            android:summary="@string/sim_summary"
+            android:title="@string/sim" />
+    </PreferenceScreen>
 
 </PreferenceScreen>

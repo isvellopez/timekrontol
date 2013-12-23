@@ -9,24 +9,45 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/btnAction"
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text="@string/btnHttpPost" />
+        android:text="@string/start"
+        android:onClick="buttonStart" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/txtPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnAction"
-        android:layout_below="@+id/btnAction"
+        android:layout_alignLeft="@+id/start"
+        android:layout_below="@+id/start"
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="@string/multiline" >
+        android:text="@string/post" >
 
         <requestFocus />
     </EditText>
+
+    <EditText
+        android:id="@+id/txtResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPost"
+        android:layout_below="@+id/txtPost"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/txtresponse" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPost"
+        android:layout_toRightOf="@+id/start"
+        android:text="@string/stop"
+        android:onClick="buttonStop" />
 
 </RelativeLayout>
